@@ -70,10 +70,10 @@ apply plugin: 'kotlin-android'
 android {
     compileSdk = 35 // latest stable
 
-    namespace "dev.flutter.plugins.flutterbarcodescanner" // required namespace
+    namespace "com.amolg.flutterbarcodescanner" // required namespace
 
     defaultConfig {
-        minSdk = 16
+        minSdk = 21
         targetSdk = 35
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
